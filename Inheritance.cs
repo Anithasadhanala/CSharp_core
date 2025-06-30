@@ -22,7 +22,6 @@ namespace CSharpCore
             {
                 Console.WriteLine(this.x + " " + this.y);
             }
-
         }
 
         public class PointMapping : Coordianate
@@ -38,7 +37,7 @@ namespace CSharpCore
                 //GetCoordinates();
                 Console.WriteLine("coordinate pointed in the map!");
             }
-            public void GetCoordinates()
+            public void GetCoordinates(int i)
             {
                 Console.WriteLine("bnm,");
             }

@@ -12,6 +12,6 @@ Console.WriteLine((int)WeekDays.Friday);
 
 
 */
-Coordianate p = new PointMapping(1, 2, 3);
-p.GetCoordinates();
+PointMapping p = new PointMapping(1, 2, 3);
+p.GetCoordinates(1);
 
